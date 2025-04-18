@@ -33,14 +33,14 @@ sudo kinuxctl configure
 ## Managing the Service
 
 ```bash
-# Check service status
-sudo systemctl status kinuxota
+# Start OTA Client
+sudo kinuxctl start 
 
-# Restart the service
-sudo systemctl restart kinuxota
+# Restart OTA Client
+sudo kinuxctl restart
 
-# Stop the service
-sudo systemctl stop kinuxota
+# Stop OTA Client 
+sudo kinuxctl stop
 ```
 
 ## Features
