@@ -24,7 +24,7 @@ cd "$SCRIPT_DIR"
 
 # GitHub repository information
 GITHUB_USERNAME="yaswanthsk04"
-REPO_NAME="kinuxota_client_deply"
+REPO_NAME="kinuxota_client_deploy"
 PACKAGE_NAME="kinuxota_1.0.0_amd64.deb"
 RELEASE_URL="https://github.com/$GITHUB_USERNAME/$REPO_NAME/releases/download/v1.0.0/$PACKAGE_NAME"
 
