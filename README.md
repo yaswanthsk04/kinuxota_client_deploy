@@ -10,18 +10,7 @@ This repository contains the KinuxOTA client, a tool for managing over-the-air u
 
 ## Installation and Usage
 
-### Option 1: One-line Command (Easiest)
-
-```bash
-curl -L https://github.com/yaswanthsk04/kinuxota_client_deploy/raw/main/run-client.sh -o run-client.sh && chmod +x run-client.sh && ./run-client.sh
-```
-
-To run in detached mode (no console output):
-```bash
-curl -L https://github.com/yaswanthsk04/kinuxota_client_deploy/raw/main/run-client.sh -o run-client.sh && chmod +x run-client.sh && ./run-client.sh -d
-```
-
-### Option 2: Step-by-Step Instructions
+###  Step-by-Step Instructions
 
 1. **Download the run-client.sh script**:
    ```bash
