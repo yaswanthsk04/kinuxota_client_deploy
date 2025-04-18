@@ -6,7 +6,7 @@ Kinuxota is a client application that enables remote management and over-the-air
 
 ### Method 1: Direct Download and Install
 
-1. Download the latest release from the [Releases page](https://github.com/yaswanthsk04/kinuxota_client_deply/releases/latest)
+1. Download the latest release from the [Releases page](https://github.com/yaswanthsk04/kinuxota_client_deploy/releases/latest)
 2. Install the package:
 
 ```bash
