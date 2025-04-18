@@ -19,7 +19,7 @@ sudo apt-get install -f  # Install any missing dependencies
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yaswanthsk04/kinuxota_client_deply.git
+git clone https://github.com/yaswanthsk04/kinuxota_client_deploy.git
 cd kinuxota_client_deply
 ```
 
