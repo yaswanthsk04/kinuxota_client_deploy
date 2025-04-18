@@ -14,19 +14,22 @@ sudo dpkg -i kinuxota_1.0.0_amd64.deb
 sudo apt-get install -f  # Install any missing dependencies
 ```
 
-### Method 2: Using the Install Script
+### Method 2: Using the Install Script (Recommended)
 
-1. Clone this repository:
+#### Using `wget`:
 
 ```bash
-git clone https://github.com/yaswanthsk04/kinuxota_client_deploy.git
-cd kinuxota_client_deply
+wget -O install.sh https://raw.githubusercontent.com/yaswanthsk04/kinuxota_client_deploy/main/download
+chmod +x install.sh
+sudo ./install.sh
 ```
 
-2. Run the install script:
+#### Or using `curl`:
 
 ```bash
-sudo ./install-from-github.sh
+curl -o install.sh https://raw.githubusercontent.com/yaswanthsk04/kinuxota_client_deploy/main/download
+chmod +x install.sh
+sudo ./install.sh
 ```
 
 ## Configuration
@@ -54,15 +57,15 @@ sudo systemctl stop kinuxota
 
 - Remote device management
 - Over-the-air (OTA) updates
-- Command-line utility (kinuxctl) for local management
+- Command-line utility (`kinuxctl`) for local management
 - Systemd service for automatic startup
 
 ## File Locations
 
-- Configuration: `/etc/kinuxota/config.json`
-- Logs: `/var/log/kinuxota/`
-- Updates: `/var/lib/kinuxota/updates/`
-- Binaries: `/usr/local/bin/`
+- **Configuration:** `/etc/kinuxota/config.json`
+- **Logs:** `/var/log/kinuxota/`
+- **Updates:** `/var/lib/kinuxota/updates/`
+- **Binaries:** `/usr/local/bin/`
 
 ## Support
 
